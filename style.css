@@ -97,6 +97,7 @@ body {
     position: relative;
     top: -40px;
     z-index: -1;
+    color: #251607;
 
     @media (max-width: 710px){
       top: 0;
@@ -119,6 +120,19 @@ body {
   }
 
   img {
+    width: 100%;
+  }
+}
+
+.album{
+  padding: 100px 0;
+
+  .container{
+    max-width: 2000px;
+    padding: 0;
+  }
+
+  img{
     width: 100%;
   }
 }

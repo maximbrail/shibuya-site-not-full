@@ -1,58 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shibuya</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="icon" type="image/svg+xml" href="./img/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <img src="./img/logo.png" alt="" class="logo" />
 
-<body>
+          <nav class="nav">
+            <a href="">HOME</a>
+            <a href="">SHIBUYA CAPITAL</a>
+            <a href="">INCUBATOR</a>
 
-  <header class="header">
-    <div class="container">
+            <div class="nav__icons">
+              <img src="./img/discord icon.svg" alt="" />
+              <img src="./img/x icon.svg" alt="" />
+            </div>
+          </nav>
 
-      <div class="header__wrapper">
-        <img src="./img/logo.png" alt="" class="logo">
-
-        <nav class="nav">
-          <a href="">HOME</a>
-          <a href="">SHIBUYA CAPITAL</a>
-          <a href="">INCUBATOR</a>
-
-          <div class="nav__icons">
-            <img src="./img/discord icon.svg" alt="">
-            <img src="./img/x icon.svg" alt="">
-          </div>
-        </nav>
-
-        <img src="./img/burger.svg" alt="" class="burger">
-      </div>
-
-
-    </div>
-  </header>
-
-  <section class="hero">
-    <div class="container">
-      <div class="hero__wrap">
-        <h1>SHIBUYA</h1>
-        <p>Shibuya Station is the pixel art collection, inspired by Japanese and anime culture.  Inscribed on Bitcoin FOREVER.</p>
-        <img src="./img/img1.png" alt="">
-        <div>
-          <p>渋谷駅</p>
-          <p>のドット絵コレクション</p>
+          <img src="./img/burger.svg" alt="" class="burger" />
         </div>
       </div>
+    </header>
 
-    </div>
-  </section>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrap">
+          <h1>SHIBUYA</h1>
+          <p>
+            Shibuya Station is the pixel art collection, inspired by Japanese
+            and anime culture. Inscribed on Bitcoin FOREVER.
+          </p>
+          <img src="./img/img1.png" alt="" />
+          <div>
+            <p>渋谷駅</p>
+            <p>のドット絵コレクション</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script src="./script.js"></script>
-</body>
+    <section class="album">
+      <div class="container">
+        <div class="swiper album-swiper-1">
 
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <img src="./img/carousel-1.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./img/carousel-1.png" alt="">
+            </div>
+        
+          </div>
+
+          
+        </div>
+
+        <div class="swiper album-swiper-2">
+
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <img src="./img/carousel-2.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./img/carousel-2.png" alt="">
+            </div>
+        
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
